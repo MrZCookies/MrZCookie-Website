@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "RifficFree-Bold";
+	src: url("https://files.mrzcookie.com/fonts/RifficFree-Bold.ttf");
+}
+
+html,
+body {
+	scroll-behavior: smooth;
+	background-color: rgb(31 41 55);
+	font-family: "RifficFree-Bold", "Tahoma";
+	font-weight: bolder;
+}
+
+body::-webkit-scrollbar {
+	background: rgb(15 23 42);
+	width: 16px;
+}
+
+body::-webkit-scrollbar-track {
+	background: rgb(15 23 42);
+}
+
+body::-webkit-scrollbar-corner {
+	background: rgb(15 23 42);
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: rgb(31 41 55);
+	border: 3px solid rgb(15 23 42);
+	border-radius: 16px;
+}
+
+body::-webkit-scrollbar-button {
+	display:none;
+}
+
+img {
+	pointer-events: none;
+}
