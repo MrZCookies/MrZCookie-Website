@@ -30,7 +30,7 @@
 	"display_override": ["standalone"],
 	"start_url": "/",
 	"dir": "auto",
-	"scope": "*",
+	"scope": "/",
 	"lang": "en",
 	"orientation": "any",
 	"categories": [
