@@ -27,7 +27,7 @@
 	"background_color": "#1e293b",
 	"theme_color": "#3399ff",
 	"display": "standalone",
-	"display_override": "standalone",
+	"display_override": ["standalone"],
 	"start_url": "/",
 	"dir": "auto",
 	"scope": "*",
@@ -37,7 +37,7 @@
 		"social",
 		"utilities"
 	],
-	"iarc_rating_id": "",
+	"iarc_rating_id": "i-dont-have-one",
 	"prefer_related_applications": false,
 	"related_applications": [],
 	"share_target": {},
