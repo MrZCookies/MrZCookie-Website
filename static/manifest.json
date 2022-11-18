@@ -3,11 +3,27 @@
 	"name": "MrZCookie",
 	"description": "Hi, I'm MrZCookie, I'm a 14 year old, full-stack developer that loves to make websites, discord bots, and Minecraft servers. I currently know HTML, CSS, Javascript, Java, Python, and Skript. I been developing and testing the limits of minecraft servers since 2016.",
 	"icons": [
-		{"src":"https://files.mrzcookie.com/images/mrzcookie-brand/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},
-		{"src":"https://files.mrzcookie.com/images/mrzcookie-brand/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}
+		{
+			"src": "https://files.mrzcookie.com/images/mrzcookie-brand/android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "https://files.mrzcookie.com/images/mrzcookie-brand/android-chrome-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
 	],
 	"background_color": "#1e293b",
 	"theme_color": "#3399ff",
 	"display": "standalone",
-	"start_url": "/"
+	"start_url": "/",
+	"dir": "auto",
+	"scope": "*",
+	"lang": "en",
+	"orientation": "any",
+	"categories": [
+		"social",
+		"utilities"
+	]
 }
