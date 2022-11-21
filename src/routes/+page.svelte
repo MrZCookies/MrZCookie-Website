@@ -20,6 +20,6 @@
 <div id="contact" class="py-20">
 	<h1 class="text-center text-5xl text-white">Contact</h1>
 	<p class="text-center text-2xl text-white pt-5 lg:px-96">
-		If you want to get in touch, the best way is through discord. You can add me at <a class="text-mrzcookie hover:underline" href="https://discord.com/users/293074588970254337">MrZCookie#0501</a>
+		If you want to get in touch, the best way is through discord. You can add me at <a class="text-mrzcookie hover:opacity-90" href="https://discord.com/users/293074588970254337">MrZCookie#0501</a>
 	</p>
 </div>
