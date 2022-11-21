@@ -9,7 +9,7 @@
 </script>
 
 <nav class="bg-slate-900 shadow-xl">
-	<div class="container px-6 py-8 mx-auto md:flex md:justify-between md:items-center">
+	<div class="container px-6 py-6 mx-auto md:flex md:justify-between md:items-center">
 		<div class="flex items-center justify-between">
 			<a class="font-bold bg-gradient-to-r from-[#0073e6] to-[#3399ff] bg-clip-text text-transparent text-5xl transition duration-500 hover:scale-110" href="/">
 				MrZCookie
