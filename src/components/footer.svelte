@@ -1,5 +1,5 @@
 <div class="bg-slate-900">
-	<div class="container px-6 py-8 mx-auto flex justify-between items-center">
+	<div class="container px-6 py-6 mx-auto flex justify-between items-center">
 		<div class="flex items-center justify-between">
 			<a class="font-bold bg-gradient-to-r from-[#0073e6] to-[#3399ff] bg-clip-text text-transparent text-5xl transition duration-500 hover:scale-110" href="/">
 				MrZCookie

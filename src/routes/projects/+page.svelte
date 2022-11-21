@@ -5,7 +5,7 @@
 	<meta property="og:description" content="Here are all of the projects that I have worked on before or currently.">
 </svelte:head>
 
-<div class="flex flex-wrap justify-center items-center my-36">
+<div class="flex flex-wrap justify-center items-center my-40">
 	<div class="max-w-sm rounded overflow-hidden shadow-lg bg-slate-800 cursor-pointer mx-10 my-16 justify-center transition duration-500 hover:scale-105 hover:shadow-xl" on:click={() => (window.location.replace("http://mrzcookie.com"))}>
 		<img class="w-full" src="/mrzcookie-website.png" alt="MrZCookie's Website">
 		<div class="px-6 py-4">
