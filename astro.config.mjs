@@ -4,7 +4,6 @@ import cloudflare from "@astrojs/cloudflare";
 import svelte from "@astrojs/svelte";
 import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
-import image from "@astrojs/image";
 
 // https://astro.build/config
 export default defineConfig({
@@ -14,9 +13,6 @@ export default defineConfig({
   integrations: [
     svelte(),
     tailwind(),
-    sitemap(),
-    image({
-      serviceEntryPoint: "@astrojs/image/sharp"
-    })
+    sitemap()
   ]
 });
