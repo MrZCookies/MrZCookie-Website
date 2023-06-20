@@ -3,69 +3,70 @@ const { title, description } = Astro.props
 ---
 
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	    <meta property="og:title" content={`${title} | MrZCookie`}>
-	    <meta name="description" content={description}>
-	    <meta property="og:description" content={description}>
-        <meta name="keywords" content="MrZCookie, ItsMrZCookie, Developer, Portfolio, Skript, Minecraft, Plugin">
-        <meta property="og:keywords" content="MrZCookie, ItsMrZCookie, Developer, Portfolio, Skript, Minecraft, Plugin">
-        <meta name="author" content="MrZCookie">
-        <meta property="og:author" content="MrZCookie">
-        <meta property="og:type" content="website">
-        <meta name="url" content="https://mrzcookie.com">
-        <meta property="og:url" content="https://mrzcookie.com">
-        <meta name="theme-color" content="#3399ff">
-        <link rel="sitemap" href="/sitemap-index.xml">
-        <link rel="manifest" href="/manifest.json">
-        <link rel="icon" href="https://files.mrzcookie.com/images/mrzcookie-brand/favicon.ico">
-        <link rel="apple-touch-icon" href="https://files.mrzcookie.com/images/mrzcookie-brand/apple-touch-icon.png">
-        <title>{title} | MrZCookie</title>
-    </head>
-    <body>
-        <slot />
-    </body>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta property="og:title" content={`${title} | MrZCookie`}>
+		<meta name="description" content={description}>
+		<meta property="og:description" content={description}>
+		<meta name="keywords" content="MrZCookie, ItsMrZCookie, Developer, Portfolio, Skript, Minecraft, Plugin">
+		<meta property="og:keywords" content="MrZCookie, ItsMrZCookie, Developer, Portfolio, Skript, Minecraft, Plugin">
+		<meta name="author" content="MrZCookie">
+		<meta property="og:author" content="MrZCookie">
+		<meta property="og:type" content="website">
+		<meta name="url" content="https://mrzcookie.com">
+		<meta property="og:url" content="https://mrzcookie.com">
+		<meta name="theme-color" content="#3399ff">
+		<link rel="sitemap" href="/sitemap-index.xml">
+		<link rel="manifest" href="/manifest.json">
+		<link rel="preconnect" href="https://files.mrzcookie.com">
+		<link rel="icon" href="https://files.mrzcookie.com/images/mrzcookie-brand/favicon.ico">
+		<link rel="apple-touch-icon" href="https://files.mrzcookie.com/images/mrzcookie-brand/apple-touch-icon.png">
+		<title>{title} | MrZCookie</title>
+	</head>
+	<body>
+		<slot />
+	</body>
 </html>
 
 <style>
-    @font-face {
-        font-family: "RifficFree-Bold";
-        src: url("https://files.mrzcookie.com/fonts/RifficFree-Bold.ttf");
-    }
+	@font-face {
+		font-family: "RifficFree-Bold";
+		src: url("https://files.mrzcookie.com/fonts/RifficFree-Bold.ttf");
+	}
 
-    html,
-    body {
-        scroll-behavior: smooth;
-        background-color: rgb(31 41 55);
-        font-family: "RifficFree-Bold", "Tahoma";
-        font-weight: bolder;
-    }
+	html,
+	body {
+		scroll-behavior: smooth;
+		background-color: rgb(31 41 55);
+		font-family: "RifficFree-Bold", "Tahoma";
+		font-weight: bolder;
+	}
 
-    body::-webkit-scrollbar {
-        background: rgb(15 23 42);
-        width: 16px;
-    }
+	body::-webkit-scrollbar {
+		background: rgb(15 23 42);
+		width: 16px;
+	}
 
-    body::-webkit-scrollbar-track {
-        background: rgb(15 23 42);
-    }
+	body::-webkit-scrollbar-track {
+		background: rgb(15 23 42);
+	}
 
-    body::-webkit-scrollbar-corner {
-        background: rgb(15 23 42);
-    }
+	body::-webkit-scrollbar-corner {
+		background: rgb(15 23 42);
+	}
 
-    body::-webkit-scrollbar-thumb {
-        background-color: rgb(31 41 55);
-        border: 3px solid rgb(15 23 42);
-        border-radius: 16px;
-    }
+	body::-webkit-scrollbar-thumb {
+		background-color: rgb(31 41 55);
+		border: 3px solid rgb(15 23 42);
+		border-radius: 16px;
+	}
 
-    body::-webkit-scrollbar-button {
-        display:none;
-    }
+	body::-webkit-scrollbar-button {
+		display:none;
+	}
 
-    img {
-        pointer-events: none;
-    }
+	img {
+		pointer-events: none;
+	}
 </style>
