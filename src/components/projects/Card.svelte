@@ -1,4 +1,6 @@
 <script>
+    import { Image } from "@astrojs/image/components";
+
     export let name;
     export let description;
     export let tags;
@@ -9,7 +11,7 @@
 </script>
 
 <div class="max-w-sm rounded overflow-hidden shadow-lg bg-slate-800 cursor-pointer mx-10 my-16 justify-center transition duration-500 hover:scale-105 hover:shadow-xl" on:click={() => (window.location.replace({src}))} on:keypress={() => (window.location.replace({src}))}>
-    <img class="w-full" src={banner} alt={name}>
+    <Image class="w-full" src={banner} alt={name} />
     <div class="px-6 py-4">
         <div class="text-xl mb-2 text-gray-100">
             {name}
