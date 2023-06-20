@@ -1,17 +1,5 @@
-import adapter from "@sveltejs/adapter-auto";
-import preprocess from "svelte-preprocess";
+import { vitePreprocess } from '@astrojs/svelte';
 
-const config = {
-	kit: {
-		adapter: adapter(),
-		inlineStyleThreshold: Infinity
-	},
-	preprocess: [
-		preprocess({
-			postcss: true,
-			preserve: ['ld+json'],
-		}),
-	],
+export default {
+	preprocess: vitePreprocess(),
 };
-
-export default config;

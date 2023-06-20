@@ -14,7 +14,7 @@
 			<a class="font-bold bg-gradient-to-r from-[#0073e6] to-[#3399ff] bg-clip-text text-transparent text-5xl transition duration-500 hover:scale-110" href="/">
 				MrZCookie
 			</a>
-			<div on:click={toggleNavbar} class="flex md:hidden">
+			<div on:click={toggleNavbar} on:keypress={toggleNavbar} class="flex md:hidden">
 				<button type="button" aria-label="Menu" class="text-white hover:text-mrzcookie focus:outline-none focus:text-mrzcookie">
 					{#if showMenu}
 						<svg in:fade xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">

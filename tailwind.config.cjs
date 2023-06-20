@@ -1,11 +1,12 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ['./src/**/*.{html,js,svelte,ts}'],
+	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
 		extend: {
 			colors: {
 				'mrzcookie': '#3399ff',
 			}
-		}
+		},
 	},
-	plugins: []
-};
+	plugins: [],
+}
