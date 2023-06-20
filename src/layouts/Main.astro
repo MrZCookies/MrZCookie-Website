@@ -7,11 +7,11 @@ const { title, description } = Astro.props
 ---
 
 <Global title={title} description={description}>
-    <header class="fixed w-full top-0 z-50">
-        <Header/>
-    </header>
-    <slot />
-    <footer>
-        <Footer/>
-    </footer>
+	<header class="fixed w-full top-0 z-50">
+		<Header/>
+	</header>
+	<slot />
+	<footer>
+		<Footer/>
+	</footer>
 </Global>
